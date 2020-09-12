@@ -973,3 +973,62 @@ input, textarea, select{
 	height: 50px;
 	padding: 0 50px;
 }
+
+
+/* Responsive */
+@media (max-width: 1199px){
+	.aside{
+		left: -270px;
+	}
+	.main-content {
+	    padding-left: 0;
+	}
+	.about .about-content .personal-info .info-item p span {
+		display: block;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 989px){
+	.portfolio .portfolio-item,
+	.service .service-item{
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 819px){
+	.contact .contact-info-item,
+	.service .service-item,
+	.about .about-content .experience,
+	.about .about-content .education,
+	.about .about-content .skills,
+	.about .about-content .personal-info{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.portfolio .portfolio-item button{
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 575px){
+	.contact .contact-form .col-6,
+	.portfolio .portfolio-item{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 429px){
+	.about .about-content .personal-info .info-item{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+}
