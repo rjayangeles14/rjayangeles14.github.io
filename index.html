@@ -6,6 +6,14 @@
 	<title>	Personal Porfolio </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/skins/pink.css">
+
+	<!-- Live Style Switcher -->
+	<link rel="stylesheet" class="alternate-style" title="pink" type="text/css" href="css/skins/pink.css" disabled>
+	<link rel="stylesheet" class="alternate-style" title="blue" type="text/css" href="css/skins/blue.css" disabled>
+	<link rel="stylesheet" class="alternate-style" title="orange" type="text/css" href="css/skins/orange.css" disabled>
+	<link rel="stylesheet" class="alternate-style" title="yellow" type="text/css" href="css/skins/yellow.css" disabled>
+	<link rel="stylesheet" class="alternate-style" title="green" type="text/css" href="css/skins/green.css" disabled>
+	<link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
 </head>
 <body>
 	<!-- Main Container -->
@@ -479,7 +487,37 @@
 		</div>
 	</div>
 	<!-- Lightbot End-->
+
+<!-- Live Style Switcher -->
+<div class="style-switcher">
+	<div class="toggle-style-switcher">
+		<i class="fa fa-cog fa-spin"></i>
+	</div>
+	<h5>Style Switcher</h5>
+	<ul>
+		<li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a> </li>
+		<li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a> </li>
+		<li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a> </li>
+		<li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a> </li>
+		<li><a href="javascript:void(0);" title="green" style="background-color: #72b616;" onclick="setActiveStyle('green')"></a> </li>
+	</ul>
+	<h5>Body Skins</h5>
+	<label>
+		<input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+		Light
+	</label>
+	<label>
+		<input type="radio" class="body-skin" name="body-style" value="dark">
+		Dark
+	</label>
+</div>
+<!-- Live Style Switcher End-->
+
 <!-- Template JS -->
 <script src="js/script.js"></script>
+
+<!-- Live Style JS -->
+<script src="js/styleSwitcher.js"></script>
+
 </body>
 </html>
