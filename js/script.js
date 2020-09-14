@@ -175,3 +175,13 @@ const lightbox=document.querySelector(".lightbox"),
 			allSection[i].classList.toggle("open");
 		}
 	}
+
+	const sendBtn=document.querySelector(".sendBtn"),
+		  formEmail=document.querySelector(".contact-form");
+
+	sendBtn.addEventListener("click",function(){
+		const subj = document.getElementById("subject").value + " [" +document.getElementById("name").value + "]";
+		const message =document.getElementById("message").value;
+		formEmail.action = "mailto:rjayangeles@yahoo.com?subject=" + subj +"&body=" +message;
+
+	})

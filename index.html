@@ -438,36 +438,36 @@
 					</div>
 					<!-- Contact Form -->
 					<div class="row">
-						<form class="contact-form padd-15" method="post" action="contactformhandler.php">
+						<form class="contact-form padd-15" method="post" enctype="text/plain">
 							<div class="row">
 								<div class="form-item col-6 padd-15">
 									<div class="form-group">
-										<input name="name" type="text" class="form-control" placeholder="Name*" required>
+										<input id="name" type="text" class="form-control" placeholder="Name*" required>
 									</div>
 								</div>
 								<div class="form-item col-6 padd-15">
 									<div class="form-group">
-										<input name="email" type="email" class="form-control" placeholder="Email*" required>
+										<input id="email" type="email" class="form-control" placeholder="Email*" required>
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="form-item col-12 padd-15">
 									<div class="form-group">
-										<input name="subject" type="text" class="form-control" placeholder="Subject*" required>
+										<input id="subject" type="text" class="form-control" placeholder="Subject*" required>
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="form-item col-12 padd-15">
 									<div class="form-group">
-										<textarea name="message" type="text" class="form-control" placeholder="Your Message. . ." required></textarea> 
+										<textarea id="message" type="text" class="form-control" placeholder="Your Message. . ." required></textarea> 
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-12 padd-15">
-	 									<button name="submit" type="submit" class="btn">Send Message</button>
+	 									<button id="submit" type="submit" class="btn sendBtn">Send Message</button>
 								</div>
 							</div>
 						</form>
