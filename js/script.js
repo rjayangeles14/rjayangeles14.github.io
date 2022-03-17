@@ -92,7 +92,7 @@ const lightbox=document.querySelector(".lightbox"),
 	  	var alink = document.getElementById("linkID"); //or grab it by tagname etc'
 	  	var img = document.getElementById("myImg");
 	  	var whatImg = img.getAttribute("src");
-	  	console.log(whatImg)
+	  	// console.log(whatImg)
 
 	  	switch (whatImg){
 	  		case "images/portfolio/1.jpg":
