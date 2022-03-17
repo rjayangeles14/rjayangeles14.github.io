@@ -57,6 +57,7 @@ const lightbox=document.querySelector(".lightbox"),
 
 	  function toggleLightbox(){
 	  	lightbox.classList.toggle("open");
+	  	showItem();
 	  }
 
 	  function	changeItem(){
@@ -64,6 +65,7 @@ const lightbox=document.querySelector(".lightbox"),
 	  	lightboxImg.src = imgSrc;
 	  	lightboxCounter.innerHTML= (itemIndex+1) + " of " + totalPortfolioItem;
 	  	lightboxText.innerHTML=portfolioItems[itemIndex].querySelector("h4").innerHTML;
+	  	showItem();
 	  }
 
 	  function nextItem(){
@@ -98,6 +100,18 @@ const lightbox=document.querySelector(".lightbox"),
 	  		break;
 	  		case "images/portfolio/2.jpg":
 	  			alink.href = "https://yahoo.com"
+	  		break;
+	  		case "images/portfolio/3.jpg":
+	  			alink.href = "https://facebook.com"
+	  		break;
+	  		case "images/portfolio/4.jpg":
+	  			alink.href = "https://youtube.com"
+	  		break;
+	  		case "images/portfolio/5.jpg":
+	  			alink.href = "https://instagram.com"
+	  		break;
+	  		case "images/portfolio/6.jpg":
+	  			alink.href = "https://twitter.com"
 	  		break;
 	  	}
 	  }
