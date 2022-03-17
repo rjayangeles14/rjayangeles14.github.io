@@ -86,6 +86,22 @@ const lightbox=document.querySelector(".lightbox"),
 	  	changeItem();
 	  }
 
+	  function showItem(){
+	  	var alink = document.getElementById("linkID"); //or grab it by tagname etc'
+	  	var img = document.getElementById("myImg");
+	  	var whatImg = img.getAttribute("src");
+	  	console.log(whatImg)
+
+	  	switch (whatImg){
+	  		case "images/portfolio/1.jpg":
+	  			alink.href = "https://google.com"
+	  		break;
+	  		case "images/portfolio/2.jpg":
+	  			alink.href = "https://yahoo.com"
+	  		break;
+	  	}
+	  }
+
 	  // close Lightbox
 	  lightbox.addEventListener("click", function(){
 	  	// console.log(event.target);
