@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style>
+	@font-face{ 
+	font-family: 'Muli-Bold';  
+	font-style: bold; 
+	src: local('Muli-Bold'), url('https://www.gmc.com/etc/clientlibs/gmc/head/css/fonts/muli-bold-webfont.woff2') format('woff2');
+	} 
+	@font-face{ 
+	font-family: 'Muli';  
+	font-style: normal; 
+	src: local('Muli'), url('https://www.gmc.com/etc/clientlibs/gmc/head/css/fonts/muli-webfont.woff2') format('woff2');
+	} 
+	*[class="gmail-fix"] {display: none !important;}
+	.gmail-fix  {display: none !important;}
+	body { width:100%!important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; padding:0; font-family: 'Muli', Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+	.ReadMsgBody { width: 100%; }
+	.ExternalClass { width: 100%; }
+	table tr td {mso-line-height-rule: exactly;}     
+	img { border: 0; margin: 0; height: auto; line-height: 100%; }
+	sup { font-size: 45%; line-height: 0; }
+	span.outlook-overflow-scaling { width: 100% !important; max-width: 100%; padding: 0 !important; }
+	a, a:link { color: #20639b; text-decoration: none; }
+	h1, h2, h3, h4, h5, h6 { font-family: Arial, sans-serif !important; margin: 0 0 15px; }
+	p { margin: 0 0 15px; }
+	#backgroundWrapper, .body { background-color: #ffffff; }
+	.desktop-content { display: block!important; height: inherit !important; }
+	.mobile-content { display: none; }
+	.applelinksWhite a { color:#ffffff !important; text-decoration:none !important; }
+
+	@media only screen and (max-width: 599px) { 
+		u ~ .body #backgroundWrapper { width: 100vw !important; }
+		.desktop-content { display: none !important; height: 0 !important; }
+		.mobile-content { display: block !important; }
+		.maxWidthMobile {max-width:320px !important; width:100% !important}
+		.container_module{width: 320px !important}
+		.mobileStack {display: block !important; width: 100% !important;}
+		.photo { width: 100% !important; height: auto !important; } 
+		.hidden { width: 0 !important; height: 0 !important; display:none !important; visibility: hidden !important; mso-hide: all !important; font-size: 0 !important; line-height:0 !important;}
+
+		.padlogo { padding: 36px 0px 32px !important; }
+		.widthlogo { max-width: 106px !important; }
+		.padheader { padding: 0px 16px 0px 15px !important; }
+		.padline { padding: 15px 0px 10px !important; }
+		.widthline { width: 28% !important;height: auto !important; }
+		.padsub { padding: 5px 0px 20px 2px !important; }
+		.widthsub { max-width: 113px !important;  height: 11px !important; }
+		.padtext1 { padding: 10px 0px 10px !important; }
+		.text1 { line-height: 19px !important;font-size: 13.5px !important;text-align: left !important;padding: 0px 9px 10px 14px !important; }
+		
+		.padcta1 { padding: 10px 0px 30px !important; }
+		.padcol { padding: 8px 15px 20px !important; }
+		.padcol1head { padding: 22px 13px 6px !important; }
+		.padlinecol1 { padding: 16px 0px 13px 14px !important; }
+		.sizeline { width: 80px !important; height: 3px !important; }
+		.sizeline2 { width: 80px !important; height: 6px !important; }
+		.padtextcol1 { padding: 6px 12px 15px !important; line-height: 20px !important; font-size: 16px !important; }
+		.padctacol1 { font-size: 18px !important; padding: 10px 12px 36px !important; letter-spacing: 1px !important; }
+		.padcol2 { padding-top: 34px !important; }
+		.whitebg { background-color: #ffffff !important; }
+
+		.padcol2head { padding: 22px 13px 6px !important; }
+		.padlinecol2 { padding: 16px 0px 10px 14px !important; }
+		.padtextcol2 { padding: 6px 12px 15px !important; line-height: 20px !important; font-size: 16px !important; }
+		.padctacol2 { font-size: 18px !important; padding: 10px 12px 36px !important; letter-spacing: 1px !important; }
+
+		.padrow1 { padding: 16px 15px 0px !important; }
+		.padheadrow1 { padding: 22px 12px 6px !important; }
+		.padlinerow1 { padding: 15px 0px 13px 15px !important; }
+		.padtextrow1 { padding: 15px 6px 17px 12px !important; line-height: 20px !important; font-size: 15px !important; letter-spacing: 0.01em !important; }
+		.padctarow1 { font-size: 18px !important; padding: 10px 12px 36px !important; letter-spacing: 1px !important; }
+		.padimgshop { padding: 0px !important; }
+		.padtextshop { padding: 23px 12px 23px 16px !important; line-height: 24px !important; text-align: left !important;}
+		.padoffer {  padding: 0px !important; }
+		.padctaoffer { padding: 30px 0px 28px !important; }
+		.padbtn1, .padbtn3 {padding-bottom: 1px !important;}
+		.padJelly0 { padding: 0px !important; }
+		.padctaall  { padding: 0px 0px 40px !important; }
+
+		.padsocial { padding: 34px 0px 23px !important; }
+		.socialbtn { width: 54% !important;}
+		.footertext1 { line-height: 14px !important; }
+		.footertext2 { line-height: 16px !important; padding-top: 0px !important; }
+		.footertext3 { line-height: 14px !important; padding-top: 0px !important; }
+		.footertext4 { line-height: 14px !important; }
+		.footertext5 { line-height: 14px !important; }
+	}
+</style>
+<!--[if true]> <style> table { border-collapse: collapse; } table, td { mso-line-height-rule: exactly; mso-margin-bottom-alt: 0; mso-margin-top-alt: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; } h1, h2, h3, h4, h5, h6, .cta { font-family: Arial, sans-serif; margin: 0 0 15px; } li { text-indent: -1em; margin: 0px 0px 6px; } sup { font-size: 75% !important; mso-text-raise: 12%; } </style> <![endif]-->
+<!--[if gte mso 9]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> <![endif]-->
+<!--[if gte mso 9]> <style type="text/css" media="all">body, table, td, p, span, a { font-family: Arial, sans-serif ,Helvetica !important;}</style><![endif]-->
+</head>
+<body class="body" style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+<!-- PreHeader Text -->
+<!-- <div style="display:none; mso-hide:all; max-height:0; line-height:0; padding:0; font-size:0;" class="hidden">
+PREHEADER TEXT&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj; &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+</div> -->
+	<table id="backgroundWrapper" border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td align="center" valign="top">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="main" align="center" style="width: 600px;" valign="top">
+							<table class="container_module" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+								<tr>
+									<td class="padlogo" align="center" valign="middle" style="padding: 36px 0px 36px;">
+										<a CAT1="Header" CAT2="logo" href="https://google.com" target="_blank"><img class="widthlogo" src="images/gmc_logo.png" alt="GMC logo" width="111" style="border: 0; display: block; margin: 0;" /></a>
+									</td>
+								</tr>
+								<tr>
+									<td class="padheader" align="center" valign="middle" style="padding: 9px 0;">
+										<img class="photo" src="images/masthead_headline.png" alt="SOMETIMES THE BIGGEST  LEAPS FORWARD ARE  ACTUALLY DIAGONAL" width="369" style="border: 0; display: block; margin: 0;" />
+									</td>
+								</tr>
+								<tr>
+									<td class="padline" align="center" valign="middle" style="padding: 10px 0;">
+										<img class="widthline" src="images/red_rule.png" alt="" width="115" style="border: 0; display: block; margin: 0;" />
+									</td>
+								</tr>
+								<tr>
+									<td class="padsub" align="center" valign="middle" style="padding: 6px 0 26px;">
+										<img class="widthsub" src="images/gmc_HUMMER_EV.png" alt="GMC HUMMER EV" width="143" style="border: 0; display: block; margin: 0;" />
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" width="100%" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td align="center" valign="top">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" description="M_IMG_WHOLE" CAT1="body" CAT2="masthead" href="https://google.com" target="_blank"><img src="images/masthead_image_mobile.jpg" alt="HUMMER EV Edition 1 driving" style="border: 0; margin: 0; width: 100%; max-width: 320px; display:block;" width="320"/></a>
+										</span>
+										<a class="desktop-content" description="M_IMG_WHOLE" CAT1="body" CAT2="masthead" href="https://google.com" target="_blank"><img src="images/masthead_image_02.jpg" alt="HUMMER EV Edition 1 driving" style="border: 0; margin: 0; width: 100%; max-width: 600px; display:block;" width="600"/></a>
+									</td>
+								</tr>
+								<tr>
+									<td class="padtext1" align="center" style="padding: 15px 0px 20px;">
+										<table class="container_module" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td class="text1" align="center" valign="middle" style="font-family:'Muli', Arial, sans-serif; line-height: 22px; font-size: 16px; padding: 0px 31px 0px 30px;">
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt mollis tellus at volutpat. Morbi convallis felis quam, non mollis purus aliquam quis. Phasellus lobortis, sapien et rutrum tincidunt, elit arcu finibus lorem, non viverra ipsum libero eu mauris. 
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" style="padding: 5px 0px 30px;" class="padcta1">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" description="M_BTN_WHOLE" CAT1="body" CAT2="masthead_cta" href="https://google.com" target="blank"><img src="images/CTA_RESERVE_YOURS_mobile.png" alt="LEARN MORE" style="border: 0; display:block;" width="290"/></a>
+										</span>
+										<a class="desktop-content" description="M_BTN_WHOLE" CAT1="body" CAT2="masthead_cta" href="https://google.com" target="blank"><img src="images/CTA_RESERVE_YOURS.png" alt="LEARN MORE" style="border: 0; display:block;" width="228"/></a>
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td class="padcol" align="center" valign="top" style="padding: 10px 25px 20px;">
+										<table class="maxWidthMobile whitebg" border="0" cellpadding="0" cellspacing="0" width="550" bgcolor="#e8e8e8">
+											<tr>
+												<th class="mobileStack" align="center" valign="top" style="font-weight: normal;">
+													<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#e8e8e8">
+														<tr>
+															<td align="left">
+																<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+																	<a class="mobile-content" CAT1="body" CAT2="content_well_2" href="https://google.com" target="_blank"><img src="images/column1_img_mobile.png" alt="Cole w/ Sierra AT4 grille" style="border: 0; margin: 0; display: block;" width="290"></a>
+																</span>
+																<a class="desktop-content" CAT1="body" CAT2="content_well_2" href="https://google.com" target="_blank"><img src="images/column1_img.jpg" alt="Cole w/ Sierra AT4 grille" style="border: 0; margin: 0; display: block;" width="267"></a>
+															</td>
+														</tr>
+														<tr>
+															<td class="padcol1head" align="left" style="padding: 18px 12px 8px;">
+																<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+																	<img class="mobile-content" src="images/headline1_mobile.png" alt="NEVER LET A GREAT DAY GET AWAY" style="border: 0; margin: 0; display: block;" width="182">
+																</span>
+																<img class="desktop-content" src="images/headline1.png" alt="NEVER LET A GREAT DAY GET AWAY" style="border: 0; margin: 0; display: block;" width="183" height="34">
+															</td>
+														</tr>
+														<tr>
+															<td class="padlinecol1" align="left" style="padding: 9px 0px 13px 11px;">
+																<img class="sizeline" src="images/red_shape.png" alt="" style="width: 77px; display: block;" width="77">
+															</td>
+														</tr>
+														<tr>
+															<td class="padtextcol1" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 16px; color: #000000; padding: 0px 12px 15px;">
+																<p style="padding:0;margin:0;">Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam laoreet commodo nunc vel efficitur. Vivamus et lorem condimentum, consequat tellus nec, porttitor nibh. Aenean at aliquam libero, vel porttitor ligula. Ut sed arcu non orci consectetur porttitor vel sed lacus. Curabitur convallis eget justo eget feugiat. Curabitur lobortis interdum elit id auctor. Donec feugiat a dui nec maximus. Aenean varius urna eget velit fringilla porttitor.</p>
+															</td>
+														</tr>
+														<tr>
+															<td class="padctacol1" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 12px;color: #cc0000;padding: 0px 12px 24px;">
+																<a CAT1="body" CAT2="content_well_2_cta_" href="https://google.com" target="_blank" style="text-decoration: none;color: #cc0000;font-weight: bold;">READ MORE</a>
+															</td>
+														</tr>
+													</table>
+												</th>
+												<th bgcolor="#ffffff" class="mobileStack" width="25"></th>
+												<th class="mobileStack padcol2" align="center" valign="top" style="font-weight: normal;">
+													<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#e8e8e8">
+														<tr>
+															<td align="left">
+																<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+																	<a class="mobile-content" CAT1="body" CAT2="content_well_3" href="https://google.com" target="_blank"><img src="images/column2_img_mobile.png" alt="&frac34; front view of GMC Sierra Denali 3500 HD w/RV" style="border: 0; margin: 0; display: block;" width="290"></a>
+																</span>
+																<a class="desktop-content" CAT1="body" CAT2="content_well_3" href="https://google.com" target="_blank"><img src="images/column2_img.jpg" alt="&frac34; front view of GMC Sierra Denali 3500 HD w/RV" style="border: 0; margin: 0; display: block;" width="267"></a>
+															</td>
+														</tr>
+														<tr>
+															<td class="padcol2head" align="left" style="padding: 19px 15px 7px;">
+																<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+																	<img class="mobile-content" src="images/headline2_mobile.png" alt="RENOVATIONS FOR THE ROAD" style="border: 0; margin: 0; display: block;" width="174">
+																</span>
+																<img class="desktop-content" src="images/headline2.png" alt="RENOVATIONS FOR THE ROAD" style="border: 0; margin: 0; display: block;" width="173" height="34">
+															</td>
+														</tr>
+														<tr>
+															<td class="padlinecol2" align="left" style="padding: 9px 0px 13px 15px;">
+																<img class="sizeline2" src="images/red_shape3.jpg" alt="" style="width: 77px; display: block;" width="77" height="4">
+															</td>
+														</tr>
+														<tr>
+															<td class="padtextcol2" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 16px; color: #000000; padding: 0px 16px 17px 14px;">
+																<p style="padding:0;margin:0;">Vivamus aliquet libero at mauris sollicitudin pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sodales tortor ex, ac bibendum massa facilisis quis. Phasellus convallis consectetur magna. Quisque diam dui, efficitur et nibh id, dignissim condimentum nisl. Sed dictum, enim vel vestibulum gravida, sem nulla sodales augue, vel aliquam libero est ut nunc. Vivamus quis quam velit.</p>
+															</td>
+														</tr>
+														<tr>
+															<td class="padctacol2" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 12px;color: #cc0000;padding: 0px 12px 24px;">
+																<a CAT1="body" CAT2="content_well_3_cta" href="https://google.com" target="_blank" style="text-decoration: none;color: #cc0000;font-weight: bold;">READ MORE</a>
+															</td>
+														</tr>
+													</table>
+												</th>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<td class="padrow1" align="center" style="padding: 0px 25px;">
+										<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#e8e8e8">
+											<tr>
+												<td>
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" description="SC_IMG_CANYONS" CAT1="body" CAT2="content_well_4" href="https://google.com" target="_blank"><img src="images/GMC_Canyon_Img_mobile.png" alt="&frac34; front view of GMC CANYON AT4" style="border: 0; margin: 0; display:block;" width="290"/></a>
+													</span>
+													<a class="desktop-content" description="SC_IMG_CANYONS" CAT1="body" CAT2="content_well_4" href="https://google.com" target="_blank"><img src="images/GMC_Canyon_Img.jpg" alt="&frac34; front view of GMC CANYON AT4" style="border: 0; margin: 0; width: 100%; max-width: 550px; display:block;" width="550"/></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="padheadrow1" align="left" style="padding: 25px 10px 6px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<img class="mobile-content" src="images/headline3_mobile.png" alt="TAKING GMC CANYON OFF-ROAD PERFORMANCE TO A HIGHER LEVEL" style="border: 0; margin: 0; display: block;" width="241">
+													</span>
+													<img class="desktop-content" src="images/headline3.png" alt="TAKING GMC CANYON OFF-ROAD PERFORMANCE TO A HIGHER LEVEL" style="border: 0; margin: 0; display: block;" width="435" height="34">
+												</td>
+											</tr>
+											<tr>
+												<td class="padlinerow1" align="left" style="padding: 9px 0px 13px 12px;">
+													<img  class="sizeline" src="images/red_shape.png" alt="" style="width: 77px; display: block;" width="77">
+												</td>
+											</tr>
+											<tr>
+												<td class="padtextrow1" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 16px; color: #000000; padding: 5px 16px 17px 10px;">
+													<p style="padding:0;margin:0;">Etiam lacinia, leo sed gravida iaculis, nunc dui sagittis ipsum, vel vestibulum diam mauris ac leo. Nunc posuere commodo blandit. Nullam eget ligula auctor, laoreet ex quis, interdum enim. Mauris a tincidunt felis, a luctus magna. Praesent eget augue ligula. Pellentesque commodo tellus risus. Maecenas id risus urna. Donec ut metus eu velit interdum condimentum. Pellentesque id diam eget urna sagittis lobortis.</p>
+												</td>
+											</tr>
+											<tr>
+												<td class="padctarow1" align="left" style="font-family:'Muli', Arial, sans-serif; line-height: 18px; font-size: 12px;color: #cc0000;padding: 2px 10px 28px;">
+													<a description="SC_BTN_READ_MORE_3" CAT1="body" CAT2="content_well_4_cta" href="https://google.com" target="_blank" style="text-decoration: none;color: #cc0000;font-weight: bold;">READ MORE</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<td align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<img class="mobile-content" src="images/ShopOnline_Headline_mobile_02.jpg" alt="Shop Online" style="margin: 0; border: 0; display: block;" width="320">
+										</span>
+										<img class="desktop-content" src="images/ShopOnline_Headline.jpg" alt="Shop Online" style="margin: 0; border: 0; display: block; width: 100%; max-width: 600px;" width="100%">
+										
+									</td>
+								</tr>
+								<tr>
+									<td class="padimgshop" align="center" style="padding: 0px 25px;">
+										<a CAT1="body" CAT2="SCD" href="https://google.com" target="_blank"><img src="images/ShopClickDrive_Image.jpg" alt="Sierra AT4 with shop.click.drive logo" style="margin: 0; border: 0; display: block; width: 100%; max-width: 550px;" width="100%"></a>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<table class="maxWidthMobile" cellpadding="0" cellspacing="0" border="0" width="560">
+											<tr>
+												<td class="padtextshop" align="center" style="font-family:'Muli', Arial, sans-serif; line-height: 22px; font-size: 16px; color: #000000; padding: 22px 0px 26px; word-spacing: -2px; letter-spacing: .02px;">
+													<p style="margin: 0; padding: 0;">Praesent finibus posuere porttitor. Nulla posuere tortor sit amet felis lobortis, a hendrerit erat eleifend. Quisque elementum fermentum sem ac luctus.</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" CAT1="body" CAT2="SCD" href="https://google.com" target="_blank"><img src="images/CTA_START_SHOPPING_MOBILE.png" alt="START SHOPPING" style="display: block;" width="290"></a>
+										</span>
+										<a class="desktop-content" CAT1="body" CAT2="SCD" href="https://google.com" target="_blank"><img src="images/CTA_START_SHOPPING.jpg" alt="START SHOPPING" style="display: block; width: 228px;" width="228"></a>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<img class="mobile-content" src="images/GMC_OFFERS_Headline.mobile.jpg" alt="GMC OFFERS" style="margin: 0; border: 0; display: block;" width="320">
+										</span>
+										<img class="desktop-content" src="images/GMC_OFFERS_Headline.jpg" alt="GMC OFFERS" style="margin: 0; border: 0; display: block; width: 100%; max-width: 600px;" width="100%">
+									</td>
+								</tr>
+								<tr>
+									<td class="padoffer" align="center" style="padding: 0px 25px;">
+										<a CAT1="body" CAT2="offers" href="https://google.com"><img src="images/GMC_OFFERS_Image.jpg" alt="Six vehicle pack shot featuring the GMC Sierra 2500 Denali HD, the GMC Canyon Denali, the GMC Sierra Denali Ultimate, the GMC Yukon Denali, the GMC Terrain Denali and the GMC Acadia Denali." style="margin: 0; border: 0; display: block; width: 100%; max-width: 550px;" width="100%"></a>
+									</td>
+								</tr>
+								<tr>
+									<td class="padctaoffer" align="center" style="padding: 30px 0px 33px;">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" CAT1="body" CAT2="offers" href="https://google.com" target="_blank"><img src="images/CTA_VIEW_CURRENT_OFFERS_mobile.png" alt="VIEW CURRENT OFFERS" style="display: block; width: 290px;" width="290"></a>
+										</span>
+										<a class="desktop-content" CAT1="body" CAT2="offers" href="https://google.com" target="_blank"><img src="images/CTA_VIEW_CURRENT_OFFERS.jpg" alt="VIEW CURRENT OFFERS" style="display: block; width: 228px;" width="228"></a>
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<th class="mobileStack padbtn1" align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" CAT1="body" CAT2="build_and_price_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_1_mobile.png" alt="BUILD &amp; PRICE" style="display: block; width: 320px;" width="320"></a>
+										</span>
+										<a class="desktop-content" CAT1="body" CAT2="build_and_price_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_1.png" alt="BUILD &amp; PRICE" style="display: block; width: 299px;" width="299"></a>
+									</th>
+									<th class="mobileStack" align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" description="SC_BTN_CURR_OFF" CAT1="body" CAT2="current_offers_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_2_mobile.png" alt="CURRENT OFFERS" style="display: block; width: 320px;" width="320"></a>
+										</span>
+										<a class="desktop-content" description="SC_BTN_LAD" CAT1="body" CAT2="view_inventory" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_3.png" alt="VIEW INVENTORY" style="display: block; width: 299px;" width="299"></a>
+									</th>
+								</tr>
+								<tr>
+									<td height="1" style="height: 1px;"></td>
+								</tr>
+								<tr>
+									<th class="mobileStack" align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" description="SC_BTN_LAD" CAT1="body" CAT2="view_inventory" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_3_mobile.png" alt="VIEW INVENTORY" style="display: block; width: 320px;" width="320"></a>
+										</span>
+										<a class="desktop-content" description="SC_BTN_CURR_OFF" CAT1="body" CAT2="current_offers_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_2.png" alt="CURRENT OFFERS" style="display: block; width: 299px;" width="299"></a>
+									</th>
+									<th class="mobileStack" align="center">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" CAT1="body" CAT2="locate_a_dealer_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_4_mobile_v3.png" alt="LOCATE A DEALER" style="display: block; width: 320px;" width="320"></a>
+										</span>
+										<a class="desktop-content" CAT1="body" CAT2="locate_a_dealer_" href="https://google.com" target="_blank"><img class="photo" src="images/SHOPPING_TOOLS_4.png" alt="LOCATE A DEALER" style="display: block; width: 299px;" width="299"></a>
+									</th>
+								</tr>
+							</table>
+							<table class="container_module" cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tr>
+									<td align="center" style="padding-bottom: 3px;">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<img class="mobile-content" src="images/EXPLORE_FURTHER_Headline_mobile.jpg" alt="EXPLORE FURTHER" style="margin: 0; border: 0; display: block;" width="320">
+										</span>
+										<img class="desktop-content" src="images/EXPLORE_FURTHER_Headline_05.jpg" alt="EXPLORE FURTHER" style="margin: 0; border: 0; display: block; width: 100%; max-width: 600px;" width="100%">
+									</td>
+								</tr>
+								<tr>
+									<td align="center" style="padding: 0px;">
+										<table cellspacing="0" cellpadding="0" border="0" width="100%">
+											<tr>
+												<th class="mobileStack padJelly0" align="center" valign="top" style="padding-left: 1px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body" CAT2="jelly_1" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Canyon_mobile.jpg" alt="2021 GMC Canyon" height="auto" style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body" CAT2="jelly_1" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Canyon.png" alt="2021 GMC Canyon" height="auto" style="display:block;" width="175" border="0"/></a>
+												</th>
+												<th class="mobileStack padJelly0" align="center" valign="top" style="padding: 0px 8px 0px 1px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body" CAT2="jelly_2" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Sierra_mobile.jpg" alt="2021 GMC Sierra" height="auto" style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body" CAT2="jelly_2" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Siera.png" alt="2021 GMC Sierra" height="auto" style="display:block;" width="175" border="0"/></a>
+												</th>
+												<th class="mobileStack padJelly0" align="center" valign="bottom" style="padding: 1px 2px 1px 0px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body" CAT2="jelly_3" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Sierra_Heavy_Duty_mobile.jpg" alt="2021 GMC Sierra Heavy Duty" height="auto"  style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body" CAT2="jelly_3" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Sierra_Heavy_Duty.png" alt="2021 GMC Sierra Heavy Duty" height="auto"  style="display:block;" width="175" border="0"/></a>
+												</th>
+											</tr>
+											<tr>
+												<td class="hidden" height="35" style="height: 35px;"></td>
+											</tr>
+											<tr>
+												<th class="mobileStack padJelly0" align="center" valign="top" style="padding: 8px 4px 0px 12px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body_" CAT2="jelly_4" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Terrain_mobile.jpg" alt="2021 GMC Terrain" height="auto" style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body_" CAT2="jelly_4" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Terrain.png" alt="2021 GMC Terrain" height="auto" style="display:block;" width="165" border="0"/></a>
+												</th>
+												<th class="mobileStack padJelly0" align="center" valign="top" style="padding: 6px 8px 0px 0px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body" CAT2="jelly_5" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Acadia_mobile.jpg" alt="2021 GMC Acadia" height="auto"  style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body" CAT2="jelly_5" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Acadia.png" alt="2021 GMC Acadia" height="auto"  style="display:block;" width="170" border="0"/></a>
+												</th>
+												<th class="mobileStack padJelly0" align="center" valign="top" style="padding: 4px 17px 0px 0px;">
+													<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+														<a class="mobile-content" CAT1="body" CAT2="jelly_6_" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Yukon_mobile.jpg" alt="2021 GMC Yukon" height="auto" style="display:block;" width="320" border="0"/></a>
+													</span>
+													<a class="desktop-content" CAT1="body" CAT2="jelly_6_" href="https://google.com" target="_blank" style="text-decoration: none;color: #000000;"><img src="images/Yukon.png" alt="2021 GMC Yukon" height="auto" style="display:block;" width="147" border="0"/></a>
+												</th>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="padctaall" align="center" style="padding: 36px 0px 30px">
+										<span class="mobile-content" style="display: none; mso-hide: all; overflow: hidden;" >
+											<a class="mobile-content" CAT1="body" CAT2="View_all_vehicles_" href="https://google.com" target="_blank"><img src="images/CTA_VIEW_ALL_VEHICLES_mobile.png" alt="VIEW ALL VEHICLES" style="display: block; width: 290;" width="290"></a>
+										</span>
+										<a class="desktop-content" CAT1="body" CAT2="View_all_vehicles_" href="https://google.com" target="_blank"><img src="images/CTA_VIEW_ALL_VEHICLES.jpg" alt="VIEW ALL VEHICLES" style="display: block; width: 228px;" width="228"></a>
+									</td>
+								</tr>
+							</table>
+							<table class="container_module" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" bgcolor="#000000" style="table-layout: fixed;">
+								<tr>
+									<td class="padsocial" align="center" style="padding: 41px 0px 27px;">
+										<table class="socialbtn" cellpadding="0" cellspacing="0" border="0" width="30%" align="center">
+											<tr>
+												<td align="center">
+													<a CAT1="Footer" CAT2="Facebook_Icon" href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><img alt="Facebook" height="33" src="images/Facebook.png" style="display:block;" width="33" border="0"/></a>
+												</td>
+												<td align="center">
+													<a CAT1="Footer" CAT2="Twitter_Icon" href="https://twitter.com/" target="_blank" style="text-decoration: none;"><img alt="Twitter" height="33" src="images/Twitter.png" style="display:block;" width="33" border="0"/></a>
+												</td>
+												<td align="center">
+													<a CAT1="Footer" CAT2="YouTube_Icon" href="https://www.youtube.com/" target="_blank" style="text-decoration: none;"><img alt="YouTube" height="33" src="images/Youtube.png" style="display:block;" width="33" border="0"/></a>
+												</td>
+												<td align="center">
+													<a CAT1="Footer" CAT2="Instagram_Icon" href="https://www.instagram.com/" target="_blank" style="text-decoration: none;"><img alt="Instagram" height="33" src="images/Instagram.png" style="display:block;" width="33" border="0"/></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="middle" style="font-family:'Muli', Arial, sans-serif; line-height: 13px; font-size: 12px; padding:0px 16px 34px 14px;">
+										<p class="footertext1" style="padding-top: 5px;margin:0; color: #ffffff;">
+											<sup>1</sup>Maecenas vel egestas purus, nec porttitor eros. In suscipit facilisis leo id rutrum. Nam at nunc tempus, aliquam justo eu, commodo felis. Nullam tristique ultricies eros. Ut turpis eros, molestie ac congue in, ultricies sit amet lacus. Donec id vulputate odio. Quisque quis lacus libero. Ut blandit egestas purus, nec aliquam risus convallis quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+											<br><br>
+										</p>
+										<p class="footertext2" style="padding-top: 5px;margin:0; color: #ffffff;">
+											<sup>2</sup>Morbi risus lorem, viverra ut facilisis eget, imperdiet eu ipsum. Ut sit amet sapien luctus ligula ornare placerat et ut arcu. Duis vestibulum eros ligula, et aliquet felis lobortis non.<br><br>
+										</p>
+										<p class="footertext3" style="margin:0; color: #ffffff;padding-top: 2px;line-height: 13px;">
+											Sed accumsan purus vitae scelerisque convallis. Donec euismod, augue sit amet condimentum tempus, dui massa imperdiet nibh, vitae bibendum odio nulla at enim. <br><br>
+										</p>								
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			<!--gmail app fix here-->
+			<div class="gmail-fix" style="white-space:nowrap; font:15px courier; line-height:0;"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160; </div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

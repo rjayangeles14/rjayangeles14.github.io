@@ -95,14 +95,14 @@ const lightbox=document.querySelector(".lightbox"),
 	  	// console.log(whatImg)
 
 	  	switch (whatImg){
-	  		case "images/portfolio/1.jpg":
-	  			alink.href = "https://google.com"
+	  		case "images/portfolio/Thumb1.jpg":
+	  			alink.href = "sample/1/index.html"
 	  		break;
-	  		case "images/portfolio/2.jpg":
-	  			alink.href = "https://yahoo.com"
+	  		case "images/portfolio/Thumb2.jpg":
+	  			alink.href = "sample/2/index.html"
 	  		break;
-	  		case "images/portfolio/3.jpg":
-	  			alink.href = "https://facebook.com"
+	  		case "images/portfolio/Thumb3.jpg":
+	  			alink.href = "sample/3/index.html"
 	  		break;
 	  		case "images/portfolio/4.jpg":
 	  			alink.href = "https://youtube.com"
